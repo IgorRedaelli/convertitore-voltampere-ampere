@@ -5,4 +5,6 @@ Il nuovo servizio realizzato con la tecnologia Javascript, è possibile utilizza
 
 I dati da inserire per la conversione sono: il tipo di alimentazione (monofase o trifase), il valore VA (VoltAmpere) ed infine la tensione in V (Volt).
 
+Demo del tool: http://igorredaelli.com/convertitore-voltampere-ampere/
+
 Per altre informazioni o segnalazioni contattare: me@igorredaelli.com
