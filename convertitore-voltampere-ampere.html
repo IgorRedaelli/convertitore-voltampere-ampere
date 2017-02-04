@@ -1,0 +1,35 @@
+	<form name="convertitorevaa">
+			<table>
+			  <tr>
+				<td>Quante fasi?</td>
+				<td><select name="monotrifase" autofocus>
+					<option>Monofase</option>
+					<option>Trifase</option>
+				</select></td>
+				<td>&nbsp;</td>
+			  </tr>
+			  <tr>
+				<td>Valore VA (Volt-Ampere)</td>
+				<td><input type="number" name="valorex1"></td>
+			    <td>VA</td>
+			  </tr>
+			  <tr>
+				<td>Voltaggio (Volt)</td>
+				<td><input type="number" name="valorex2"></td>
+			    <td>V</td>
+			  </tr>
+				<tr>
+				<td>&nbsp;</td>
+			  	<td><input onclick="calcolofinale()" type="button" value="Calcola"> <input onclick="resettatutto()" type="reset" value="Cancella"></td>
+			    <td>&nbsp;</td>
+			  </tr>
+			  <tr>
+				<td>Risultato in Ampere (A):</td>
+				<td><input type="text" name="valoreyfinale" readonly="readonly"></td>
+			    <td>A</td>
+			  </tr>
+                        </table>
+			</form>
+
+                <!-- Include il file Javascript per il funzionamento del form -->
+		<script type="text/javascript" src="convertitore-voltampere-ampere.js"></script>
